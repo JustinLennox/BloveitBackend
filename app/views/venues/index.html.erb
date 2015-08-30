@@ -1,0 +1,51 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Venues</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Neighborhood</th>
+      <th>Type</th>
+      <th>Mood</th>
+      <th>Polaroid description</th>
+      <th>Specials</th>
+      <th>Food drink</th>
+      <th>Why blove</th>
+      <th>Price for two</th>
+      <th>Hours</th>
+      <th>Details table</th>
+      <th>Date experience</th>
+      <th>Keep in mind</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @venues.each do |venue| %>
+      <tr>
+        <td><%= venue.name %></td>
+        <td><%= venue.neighborhood %></td>
+        <td><%= venue.date_type %></td>
+        <td><%= venue.mood %></td>
+        <td><%= venue.polaroid_description %></td>
+        <td><%= venue.specials %></td>
+        <td><%= venue.food_drink %></td>
+        <td><%= venue.why_blove %></td>
+        <td><%= venue.price_for_two %></td>
+        <td><%= venue.hours %></td>
+        <td><%= venue.details_table %></td>
+        <td><%= venue.date_experience %></td>
+        <td><%= venue.keep_in_mind %></td>
+        <td><%= link_to 'Show', venue %></td>
+        <td><%= link_to 'Edit', edit_venue_path(venue) %></td>
+        <td><%= link_to 'Destroy', venue, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Venue', new_venue_path %>

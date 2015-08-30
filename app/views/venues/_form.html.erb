@@ -1,0 +1,69 @@
+<%= form_for(@venue) do |f| %>
+  <% if @venue.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@venue.errors.count, "error") %> prohibited this venue from being saved:</h2>
+
+      <ul>
+      <% @venue.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :neighborhood %><br>
+    <%= f.text_field :neighborhood %>
+  </div>
+  <div class="field">
+    <%= f.label :date_type %><br>
+    <%= f.text_field :date_type %>
+  </div>
+  <div class="field">
+    <%= f.label :mood %><br>
+    <%= f.text_field :mood %>
+  </div>
+  <div class="field">
+    <%= f.label :polaroid_description %><br>
+    <%= f.text_field :polaroid_description %>
+  </div>
+  <div class="field">
+    <%= f.label :specials %><br>
+    <%= f.text_field :specials %>
+  </div>
+  <div class="field">
+    <%= f.label :food_drink %><br>
+    <%= f.text_field :food_drink %>
+  </div>
+  <div class="field">
+    <%= f.label :why_blove %><br>
+    <%= f.text_field :why_blove %>
+  </div>
+  <div class="field">
+    <%= f.label :price_for_two %><br>
+    <%= f.text_field :price_for_two %>
+  </div>
+  <div class="field">
+    <%= f.label :hours %><br>
+    <%= f.text_field :hours %>
+  </div>
+  <div class="field">
+    <%= f.label :details_table %><br>
+    <%= f.text_field :details_table %>
+  </div>
+  <div class="field">
+    <%= f.label :date_experience %><br>
+    <%= f.text_field :date_experience %>
+  </div>
+  <div class="field">
+    <%= f.label :keep_in_mind %><br>
+    <%= f.text_field :keep_in_mind %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
