@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
 
-  resources :venues
   resources :users
+  resources :venues
 
+  get 'users/fbUser/:fbAccessToken' => 'users#showfbUser'
   root 'venues#index'
   
   # The priority is based upon order of creation: first created -> highest priority.
