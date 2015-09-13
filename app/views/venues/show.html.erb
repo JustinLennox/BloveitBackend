@@ -6,12 +6,7 @@
 </p>
 
 <p>
-  <strong>Neighborhood:</strong>
-  <%= @venue.neighborhood %>
-</p>
-
-<p>
-  <strong>Type:</strong>
+  <strong>Date Type:</strong>
   <%= @venue.date_type %>
 </p>
 
@@ -21,8 +16,23 @@
 </p>
 
 <p>
+  <strong>Price Rating:</strong>
+  <%= @venue.price_rating %>
+</p>
+
+<p>
+  <strong>Neighborhood:</strong>
+  <%= @venue.neighborhood %>
+</p>
+
+<p>
   <strong>Polaroid description:</strong>
   <%= @venue.polaroid_description %>
+</p>
+
+<p>
+  <strong>Blove Count:</strong>
+  <%= @venue.blove_count %>
 </p>
 
 <p>
@@ -63,6 +73,11 @@
 <p>
   <strong>Keep in mind:</strong>
   <%= @venue.keep_in_mind %>
+</p>
+
+<p>
+  <strong>Date Stories:</strong>
+  <%= @venue.date_stories %>
 </p>
 
 <%= link_to 'Edit', edit_venue_path(@venue) %> |

@@ -1,0 +1,29 @@
+<%= form_for(@date_story) do |f| %>
+  <% if @date_story.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@date_story.errors.count, "error") %> prohibited this date_story from being saved:</h2>
+
+      <ul>
+      <% @date_story.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :storyText %><br>
+    <%= f.text_field :storyText %>
+  </div>
+  <div class="field">
+    <%= f.label :approved %><br>
+    <%= f.check_box :approved %>
+  </div>
+  <div class="field">
+    <%= f.label :user %><br>
+    <%= f.text_field :user %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

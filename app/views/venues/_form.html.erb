@@ -20,12 +20,16 @@
     <%= f.text_field :neighborhood %>
   </div>
   <div class="field">
+    <%= f.label :price_rating %><br>
+    <%= f.text_field :price_rating %>
+  </div>
+  <div class="field">
     <%= f.label :date_type %><br>
-    <%= f.text_field :date_type %>
+    <%= f.select :date_type, ['Something Fun', 'Drinks', 'Coffee', 'Dinner', 'Dessert']%>
   </div>
   <div class="field">
     <%= f.label :mood %><br>
-    <%= f.text_field :mood %>
+    <%= f.select :mood, ['Cozy & Intimate', 'Cool & Casual', 'Fun & Lively', 'Not Picky']%>
   </div>
   <div class="field">
     <%= f.label :polaroid_description %><br>
@@ -47,10 +51,11 @@
     <%= f.label :price_for_two %><br>
     <%= f.text_field :price_for_two %>
   </div>
-  <div class="field">
+    <div class="field">
     <%= f.label :hours %><br>
     <%= f.text_field :hours %>
   </div>
+
   <div class="field">
     <%= f.label :details_table %><br>
     <%= f.text_field :details_table %>

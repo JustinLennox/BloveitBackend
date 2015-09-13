@@ -2,10 +2,12 @@ class CreateVenues < ActiveRecord::Migration
   def change
     create_table :venues do |t|
       t.string :name
-      t.string :neighborhood
       t.string :date_type
       t.string :mood
+      t.string :price_rating
+      t.string :neighborhood
       t.string :polaroid_description
+      t.string :blove_count
       t.string :specials
       t.string :food_drink
       t.string :why_blove

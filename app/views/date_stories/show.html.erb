@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>StoryText:</strong>
+  <%= @date_story.storyText %>
+</p>
+<p>
+  <strong>Approved?:</strong>
+  <%= @date_story.approved %>
+</p>
+<p>
+  <strong>User:</strong>
+  <%= @date_story.user %>
+</p>
+<p>
+  <strong>Venue:</strong>
+  <%= @date_story.venue %>
+</p>
+
+<%= link_to 'Edit', edit_date_story_path(@date_story) %> |
+<%= link_to 'Back', date_stories_path %>
