@@ -26,6 +26,11 @@
 </p>
 
 <p>
+  <strong>Address:</strong>
+  <%= @venue.address %>
+</p>
+
+<p>
   <strong>Polaroid description:</strong>
   <%= @venue.polaroid_description %>
 </p>
@@ -47,7 +52,13 @@
 
 <p>
   <strong>Why blove:</strong>
-  <%= @venue.why_blove %>
+  <%= "H1:   " + @venue.why_blove_heading_1 %>
+  <%= "D1:   " + @venue.why_blove_description_1 %><br>
+  <%= "H2:   " + @venue.why_blove_heading_2 %>
+  <%= "D2:   " + @venue.why_blove_description_2 %><br>
+  <%= "H3:   " + @venue.why_blove_heading_3 %>
+  <%= "D3:   " + @venue.why_blove_description_3 %>
+
 </p>
 
 <p>
@@ -57,7 +68,14 @@
 
 <p>
   <strong>Hours:</strong>
-  <%= @venue.hours %>
+  <%= 'Monday: ' + @venue.monday_hours %>
+  <%= 'Tuesday: ' + @venue.tuesday_hours %>
+  <%= 'Wednesday: ' + @venue.wednesday_hours %>
+  <%= 'Thursday: ' + @venue.thursday_hours %>
+  <%= 'Friday: ' + @venue.friday_hours %>
+  <%= 'Saturday: ' + @venue.saturday_hours %>
+  <%= 'Sunday: ' + @venue.sunday_hours %>
+
 </p>
 
 <p>

@@ -18,8 +18,8 @@
       <tr>
         <td><%= date_story.storyText %></td>
         <td><%= date_story.approved %></td>
-        <td><%= date_story.user %> </td>
-        <td><%= link_to 'Venue', date_story.venue %> </td>
+        <td><%= link_to date_story.user.name, date_story.user %> </td>
+        <td><%= link_to date_story.venue.name, date_story.venue %> </td>
 
         <td><%= link_to 'Show', date_story %></td>
         <td><%= link_to 'Edit', edit_date_story_path(date_story) %></td>

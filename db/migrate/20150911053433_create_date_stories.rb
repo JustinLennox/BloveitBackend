@@ -5,6 +5,7 @@ class CreateDateStories < ActiveRecord::Migration
       t.boolean :approved
       t.belongs_to :user
       t.belongs_to :venue
+      t.string :venue_id
       t.timestamps null: false
     end
   end

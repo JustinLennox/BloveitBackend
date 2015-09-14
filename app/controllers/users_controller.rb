@@ -13,6 +13,21 @@ class UsersController < ApplicationController
     @user = User.find_by(fbAccessToken: params[:fbAccessToken])
   end
 
+  # PATCH/PUT /users/fbAccessToken
+  # PATCH/PUT /users/fbAccessToken.json
+  def fbUserUpdate
+    @user = User.find_by(fbAccessToken: params[:fbAccessToken])
+    respond_to do |format|
+      if @user.update(user_params)
+        format.html { redirect_to @user, notice: 'User was successfully updated.' }
+        format.json { render :show, status: :ok, location: @user }
+      else
+        format.html { render :edit }
+        format.json { render json: @user.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
   # GET /users/1
   # GET /users/1.json
   def show
@@ -76,6 +91,6 @@ class UsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:user).permit(:fbAccessToken)
+      params.require(:user).permit(:fbAccessToken, :favorites, :name)
     end
 end

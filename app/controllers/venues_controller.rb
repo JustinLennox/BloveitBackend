@@ -4,7 +4,8 @@ class VenuesController < ApplicationController
   # GET /venues
   # GET /venues.json
   def index
-    @venues = Venue.all
+    @venues = Venue.where(nil)
+    @venues = @venues.starts_with(params[:starts_with]) if params[:starts_with].present?
   end
 
   # GET /venues/1
@@ -69,6 +70,11 @@ class VenuesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def venue_params
-      params.require(:venue).permit(:name, :price_rating, :neighborhood, :blove_count, :date_type, :mood, :polaroid_description, :specials, :food_drink, :why_blove, :price_for_two, :hours, :details_table, :date_experience, :keep_in_mind)
+      params.require(:venue).permit(:name, :price_rating, :neighborhood, :address, :blove_count, :date_type, :mood, 
+        :polaroid_description, :specials, :food_drink, :why_blove_heading_1, :why_blove_heading_2, 
+        :why_blove_heading_3, :why_blove_description_1, :why_blove_description_2,:why_blove_description_3, 
+        :price_for_two,
+         :monday_hours, :tuesday_hours, :wednesday_hours, :thursday_hours, :friday_hours, :saturday_hours, :sunday_hours,
+        :crowd, :dress_code, :parking, :reservations, :atmosphere, :keep_in_mind)
     end
 end

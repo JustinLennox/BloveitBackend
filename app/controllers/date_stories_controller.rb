@@ -25,7 +25,8 @@ class DateStoriesController < ApplicationController
   # POST /date_stories.json
   def create
     @date_story = DateStory.new(date_story_params)
-
+    @date_story.venue = Venue.find(date_story_params[:venue_id])
+    @date_story.user = User.find(date_story_params[:user_id])
     respond_to do |format|
       if @date_story.save
         format.html { redirect_to @date_story, notice: 'Date story was successfully created.' }
@@ -69,6 +70,6 @@ class DateStoriesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def date_story_params
-      params.require(:date_story).permit(:storyText, :approved)
+      params.require(:date_story).permit(:storyText, :approved, :venue_id, :user_id, :user)
     end
 end
