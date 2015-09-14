@@ -63,8 +63,36 @@ ActiveRecord::Schema.define(version: 20150911053433) do
     t.string   "parking"
     t.string   "reservations"
     t.string   "atmosphere"
-    t.datetime "created_at",              null: false
-    t.datetime "updated_at",              null: false
+    t.string   "polaroid_image_file_name"
+    t.string   "polaroid_image_content_type"
+    t.integer  "polaroid_image_file_size"
+    t.datetime "polaroid_image_updated_at"
+    t.string   "thumbnail_image_file_name"
+    t.string   "thumbnail_image_content_type"
+    t.integer  "thumbnail_image_file_size"
+    t.datetime "thumbnail_image_updated_at"
+    t.string   "venue_image_1_file_name"
+    t.string   "venue_image_1_content_type"
+    t.integer  "venue_image_1_file_size"
+    t.datetime "venue_image_1_updated_at"
+    t.string   "venue_image_2_file_name"
+    t.string   "venue_image_2_content_type"
+    t.integer  "venue_image_2_file_size"
+    t.datetime "venue_image_2_updated_at"
+    t.string   "venue_image_3_file_name"
+    t.string   "venue_image_3_content_type"
+    t.integer  "venue_image_3_file_size"
+    t.datetime "venue_image_3_updated_at"
+    t.string   "venue_image_4_file_name"
+    t.string   "venue_image_4_content_type"
+    t.integer  "venue_image_4_file_size"
+    t.datetime "venue_image_4_updated_at"
+    t.string   "venue_image_5_file_name"
+    t.string   "venue_image_5_content_type"
+    t.integer  "venue_image_5_file_size"
+    t.datetime "venue_image_5_updated_at"
+    t.datetime "created_at",                   null: false
+    t.datetime "updated_at",                   null: false
   end
 
 end

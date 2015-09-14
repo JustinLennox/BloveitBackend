@@ -34,9 +34,24 @@ class CreateVenues < ActiveRecord::Migration
       t.string :reservations
       t.string :atmosphere
       t.string :keep_in_mind
+      t.attachment :polaroid_image
+      t.attachment :thumbnail_image
+      t.attachment :venue_image_1
+      t.attachment :venue_image_2
+      t.attachment :venue_image_3
+      t.attachment :venue_image_4
+      t.attachment :venue_image_5
 
 
       t.timestamps null: false
     end
   end
+  def up
+    add_attachment :users, :avatar
+  end
+
+  def down
+    remove_attachment :users, :avatar
+  end
+
 end
