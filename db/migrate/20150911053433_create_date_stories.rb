@@ -6,6 +6,7 @@ class CreateDateStories < ActiveRecord::Migration
       t.belongs_to :user
       t.belongs_to :venue
       t.string :venue_id
+      t.string :user_fbAccessToken
       t.timestamps null: false
     end
   end

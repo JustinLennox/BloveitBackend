@@ -17,7 +17,7 @@
   </div>
   <div class="field">
     <%= f.label :neighborhood %><br>
-    <%= f.text_field :neighborhood %>
+    <%= f.select :neighborhood, ['East-Side', 'Midtown-SLASH-Downtown', 'Buckhead-SLASH-Lindbergh']%>
   </div>
   <div class="field">
     <%= f.label :address %><br>
@@ -25,23 +25,66 @@
   </div>
   <div class="field">
     <%= f.label :price_rating %><br>
-    <%= f.text_field :price_rating %>
+    <%= f.select :price_rating, ['$', '$$', '$$$']%>
   </div>
   <div class="field">
-    <%= f.label :date_type %><br>
-    <%= f.select :date_type, ['Something Fun', 'Drinks', 'Coffee', 'Dinner', 'Dessert']%>
+    <%= f.label :dinner %><br>
+    <%= f.select :dinner, ['NO', 'YES']%>
+  </div>
+  <div class="field">
+    <%= f.label :drinks %><br>
+    <%= f.select :drinks, ['NO', 'YES']%>
+  </div>
+  <div class="field">
+    <%= f.label :dessert %><br>
+    <%= f.select :dessert, ['NO', 'YES']%>
+  </div>
+  <div class="field">
+    <%= f.label :coffee %><br>
+    <%= f.select :coffee, ['NO', 'YES']%>
   </div>
   <div class="field">
     <%= f.label :mood %><br>
-    <%= f.select :mood, ['Cozy & Intimate', 'Cool & Casual', 'Fun & Lively', 'Not Picky']%>
+    <%= f.select :mood, ['Cozy-AND-Intimate', 'Cool-AND-Casual', 'Fun-AND-Lively', 'Not-Picky']%>
   </div>
   <div class="field">
     <%= f.label :polaroid_description %><br>
     <%= f.text_field :polaroid_description %>
   </div>
+
   <div class="field">
-    <%= f.label :specials %><br>
-    <%= f.text_field :specials %>
+    <%= f.label :monday_special%><br>
+    <%= f.text_field :monday_special %>
+  </div>
+
+  <div class="field">
+    <%= f.label :tuesday_special%><br>
+    <%= f.text_field :tuesday_special %>
+  </div>
+
+  <div class="field">
+    <%= f.label :wednesday_special%><br>
+    <%= f.text_field :wednesday_special %>
+  </div>
+
+  <div class="field">
+    <%= f.label :thursday_special%><br>
+    <%= f.text_field :thursday_special %>
+  </div>
+
+  <div class="field">
+    <%= f.label :friday_special%><br>
+    <%= f.text_field :friday_special %>
+  </div>
+
+  <div class="field">
+    <%= f.label :saturday_special%><br>
+    <%= f.text_field :saturday_special %>
+  </div>
+
+  <div class="field">
+    <%= f.label :sunday_special%><br>
+    <%= f.text_field :sunday_special %>
   </div>
 
   <div class="field">
@@ -129,7 +172,7 @@
   </div>
     <div class="field">
     <%= f.label :reservations %><br>
-    <%= f.text_field :reservations %>
+    <%= f.select :reservations, ['Yes', 'No']%>
   </div>
     <div class="field">
     <%= f.label :atmosphere %><br>
@@ -167,7 +210,10 @@
     <%= f.label :venue_image_5 %><br>
     <%= f.file_field :venue_image_5 %>
   </div>
-
+  <div class="field">
+    <%= f.label :blove_count %><br>
+    <%= f.text_field :blove_count %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>

@@ -8,6 +8,7 @@
       <th>FB Name</th>
       <th>Fbaccesstoken</th>
       <th>Favorites</th>
+      <th>Bloved Venues</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -18,6 +19,8 @@
         <td><%= user.name %></td>
         <td><%= user.fbAccessToken %></td>
         <td><%= user.favorites %></td>
+        <td><%= user.bloved_venues%></td>
+
         <td><%= link_to 'Show', user %></td>
         <td><%= link_to 'Edit', edit_user_path(user) %></td>
         <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>

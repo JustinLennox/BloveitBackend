@@ -18,13 +18,15 @@ ActiveRecord::Schema.define(version: 20150911053433) do
     t.boolean  "approved"
     t.integer  "user_id"
     t.string   "venue_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "user_fbAccessToken"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
   end
 
   create_table "users", force: :cascade do |t|
     t.string   "fbAccessToken"
     t.text     "favorites"
+    t.text     "bloved_venues"
     t.string   "name"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
@@ -32,14 +34,23 @@ ActiveRecord::Schema.define(version: 20150911053433) do
 
   create_table "venues", force: :cascade do |t|
     t.string   "name"
-    t.string   "date_type"
+    t.string   "dinner"
+    t.string   "drinks"
+    t.string   "dessert"
+    t.string   "coffee"
     t.string   "mood"
     t.string   "price_rating"
     t.string   "neighborhood"
     t.string   "address"
     t.string   "polaroid_description"
     t.string   "blove_count"
-    t.string   "specials"
+    t.string   "monday_special"
+    t.string   "tuesday_special"
+    t.string   "wednesday_special"
+    t.string   "thursday_special"
+    t.string   "friday_special"
+    t.string   "saturday_special"
+    t.string   "sunday_special"
     t.string   "food_drink"
     t.string   "why_blove_heading_1"
     t.string   "why_blove_description_1"

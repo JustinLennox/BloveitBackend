@@ -2,14 +2,23 @@ class CreateVenues < ActiveRecord::Migration
   def change
     create_table :venues do |t|
       t.string :name
-      t.string :date_type
+      t.string :dinner
+      t.string :drinks
+      t.string :dessert
+      t.string :coffee
       t.string :mood
       t.string :price_rating
       t.string :neighborhood
       t.string :address
       t.string :polaroid_description
       t.string :blove_count
-      t.string :specials
+      t.string :monday_special
+      t.string :tuesday_special
+      t.string :wednesday_special
+      t.string :thursday_special
+      t.string :friday_special
+      t.string :saturday_special
+      t.string :sunday_special
       t.string :food_drink
       t.string :why_blove_heading_1
       t.string :why_blove_description_1

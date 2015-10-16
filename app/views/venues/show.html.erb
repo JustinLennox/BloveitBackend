@@ -36,12 +36,6 @@
     <%= image_tag @venue.venue_image_5.url %>
 </p>
 
-
-<p>
-  <strong>Date Type:</strong>
-  <%= @venue.date_type %>
-</p>
-
 <p>
   <strong>Mood:</strong>
   <%= @venue.mood %>
@@ -73,9 +67,22 @@
 </p>
 
 <p>
-  <strong>Specials:</strong>
-  <%= @venue.specials %>
-</p>
+  <strong> Today's Special: </strong>
+<% if DateTime.current.wday == 0 %>
+  <%= @venue.sunday_special %>
+<% elsif DateTime.current.wday == 1 %>
+  <%= @venue.monday_special %>
+<% elsif DateTime.current.wday == 2 %>
+  <%= @venue.tuesday_special %>
+<% elsif DateTime.current.wday == 3 %>
+  <%= @venue.wednesday_special %>
+<% elsif DateTime.current.wday == 4 %>
+  <%= @venue.thursday_special %>
+<% elsif DateTime.current.wday == 5 %>
+  <%= @venue.friday_special %>
+<% elsif DateTime.current.wday == 6 %>
+  <%= @venue.saturday_special %>
+<% end %>
 
 <p>
   <strong>Food drink:</strong>

@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
   get 'users/fbUser/:fbAccessToken' => 'users#showfbUser'
   put 'users/fbUser/:fbAccessToken' => 'users#fbUserUpdate'
+  get 'venues/polaroid/all' => 'venues#polaroid'
+  get 'venues/cellVenue/all' => 'venues#cellVenue'
 
   root 'venues#index'
   

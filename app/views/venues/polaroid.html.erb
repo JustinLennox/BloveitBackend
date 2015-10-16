@@ -6,7 +6,6 @@
   <thead>
     <tr>
       <th>Name</th>
-      <th>Date Type</th>
       <th>Mood</th>
       <th>Price Rating</th>
       <th>Neighborhood</th>
@@ -14,15 +13,7 @@
       <th>Polaroid description</th>
       <th>Blove Count</th>
       <th>Today's Special</th>
-      <th>Food drink</th>
-      <th>Why blove</th>
-      <th>Price for two</th>
-      <th>Hours</th>
-      <th>Details table</th>
-      <th>Date experience</th>
-      <th>Keep in mind</th>
-      <th>Date Stories</th>
-      <th colspan="5"></th>
+      <th colspan="3"></th>
     </tr>
   </thead>
 
@@ -30,20 +21,6 @@
     <% @venues.each do |venue| %>
       <tr>
         <td><%= venue.name %></td>
-        <td>
-        <% if venue.dinner == 'YES' %>
-            <%= "Dinner" %>
-        <% end %>
-        <% if venue.drinks == 'YES' %>
-            <%= "Drinks" %>
-        <% end %>
-        <% if venue.coffee == 'YES' %>
-            <%= "Coffee" %>
-        <% end %>
-        <% if venue.dessert == 'YES' %>
-            <%= "Dessert" %>
-        <% end %>     
-        </td>
         <td><%= venue.mood %></td>
         <td><%= venue.price_rating %></td>
         <td><%= venue.neighborhood %></td>
@@ -65,16 +42,6 @@
         <% elsif DateTime.current.wday == 6 %>
           <td><%= venue.saturday_special %></td>
         <% end %>
-        <td><%= venue.food_drink %></td>
-        <td><%= venue.why_blove_heading_1 %></td>
-        <td><%= venue.price_for_two %></td>
-        <td><%= venue.monday_hours %></td>
-        <td><%= venue.details_table %></td>
-        <td><%= venue.date_experience %></td>
-        <td><%= venue.keep_in_mind %></td>
-          <% venue.date_stories.each do |story| %>
-          <td><%= link_to story.storyText, story%></td>
-          <% end %>
         <td><%= link_to 'Show', venue %></td>
         <td><%= link_to 'Edit', edit_venue_path(venue) %></td>
         <td><%= link_to 'Destroy', venue, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -86,3 +53,5 @@
 <br>
 
 <%= link_to 'New Venue', new_venue_path %>
+
+
