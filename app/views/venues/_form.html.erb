@@ -16,6 +16,10 @@
     <%= f.text_field :name %>
   </div>
   <div class="field">
+    <%= f.label "Main Date Type"%><br>
+    <%= f.select :date_type, ['Dinner', 'Coffee', 'Drinks', 'Dessert'] %>
+  </div>
+  <div class="field">
     <%= f.label :neighborhood %><br>
     <%= f.select :neighborhood, ['East-Side', 'Midtown-SLASH-Downtown', 'Buckhead-SLASH-Lindbergh']%>
   </div>
@@ -164,7 +168,7 @@
   </div>
     <div class="field">
     <%= f.label :dress_code %><br>
-    <%= f.text_field :dress_code %>
+    <%= f.select :dress_code, ['Casual (Jeans / T-shirt)', 'Stylish (Dress shirt / Heels)', 'Cocktail (Blazer / LBD)']%>
   </div>
     <div class="field">
     <%= f.label :parking %><br>

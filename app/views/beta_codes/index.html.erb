@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Beta Codes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>User max</th>
+      <th>User count</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @beta_codes.each do |beta_code| %>
+      <tr>
+        <td><%= beta_code.code %></td>
+        <td><%= beta_code.user_max %></td>
+        <td><%= beta_code.user_count %></td>
+        <td><%= link_to 'Show', beta_code %></td>
+        <td><%= link_to 'Edit', edit_beta_code_path(beta_code) %></td>
+        <td><%= link_to 'Destroy', beta_code, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Beta code', new_beta_code_path %>

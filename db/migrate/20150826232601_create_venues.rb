@@ -2,6 +2,7 @@ class CreateVenues < ActiveRecord::Migration
   def change
     create_table :venues do |t|
       t.string :name
+      t.string :date_type
       t.string :dinner
       t.string :drinks
       t.string :dessert

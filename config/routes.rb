@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :beta_codes
   resources :date_stories
   resources :users
   resources :venues
@@ -8,6 +9,7 @@ Rails.application.routes.draw do
   put 'users/fbUser/:fbAccessToken' => 'users#fbUserUpdate'
   get 'venues/polaroid/all' => 'venues#polaroid'
   get 'venues/cellVenue/all' => 'venues#cellVenue'
+  get 'beta_codes/bCode/:code' => 'beta_codes#bCode'
 
   root 'venues#index'
   
