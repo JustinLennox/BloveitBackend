@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151017142117) do
+ActiveRecord::Schema.define(version: 20151021213228) do
 
   create_table "beta_codes", force: :cascade do |t|
     t.string   "code"
@@ -29,6 +29,12 @@ ActiveRecord::Schema.define(version: 20151017142117) do
     t.string   "user_fbAccessToken"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
+  end
+
+  create_table "feedbacks", force: :cascade do |t|
+    t.string   "feedback_text"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
   create_table "users", force: :cascade do |t|

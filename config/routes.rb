@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :feedbacks
   resources :beta_codes
   resources :date_stories
   resources :users
