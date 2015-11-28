@@ -70,6 +70,8 @@ class DateStoriesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def date_story_params
-      params.require(:date_story).permit(:storyText, :approved, :user, :venue_id, :user_id, :user_fbAccessToken, :user, :did_enjoy, :would_recommend)
+      params.require(:date_story).permit(:storyText,
+       :approved, :user, :venue_id, :user_id, :user_fbAccessToken, :user, 
+       :did_enjoy, :would_recommend, :date_type, :food, :drinks, :zervice, :decor, :vibe)
     end
 end

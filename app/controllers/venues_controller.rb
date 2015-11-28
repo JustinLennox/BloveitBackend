@@ -17,18 +17,23 @@ class VenuesController < ApplicationController
   # GET /venues/polaroid/all
   # GET /venues/polaroid/all.json
   def polaroid
-    if params[:mood].blank? || params[:neighborhood].blank? || params[:user_fbAccessToken].blank?
+    if params[:neighborhood].blank? || params[:user_fbAccessToken].blank?
       @venues = Venue.all.limit(5)
     else
       neighborhood_array = params[:neighborhood].split('Q')
       puts "Neigh array: ", neighborhood_array
-      # @venues = Venue.where(mood: params[:mood]).where("neighborhood LIKE ?", "#{params[:neighborhood]}%")
-      @venues = Venue.where(mood: params[:mood]).where(neighborhood: neighborhood_array)
+      @venues = Venue.where(neighborhood: neighborhood_array)
+
+      if(params[:coffee] == "YES" || params[:drinks] == "YES" || params[:mood].blank? || params[:mood] == "Not-Picky")
+        puts "Not Picky"
+      else
+        @venues = @venues.where(mood: params[:mood])
+      end
       @venues = @venues.where(dinner: params[:dinner]) unless params[:dinner].blank?
       @venues = @venues.where(dessert: params[:dessert]) unless params[:dessert].blank?
       @venues = @venues.where(drinks: params[:drinks]) unless params[:drinks].blank?
       @venues = @venues.where(coffee: params[:coffee]) unless params[:coffee].blank?
-      if(@venues.size < 2)
+      if(@venues.size < 5)
         @venues = Venue.all.limit(5)
         return
       end
@@ -91,7 +96,7 @@ class VenuesController < ApplicationController
       }
       @venues.clear
       iterationCount = 0
-      while(@venues.size < 2)
+      while(@venues.size < 5)
         iterationCount += 1
         puts "Iteration count #{iterationCount}"
         venueHash.each{
@@ -172,7 +177,7 @@ class VenuesController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def venue_params
       params.require(:venue).permit(:name, :date_type, :price_rating, :neighborhood, :address, :blove_count, :dinner, :drinks,
-        :dessert, :coffee, :mood, :date_day, :user_fbAccessToken,
+        :dessert, :coffee, :mood, :date_day, :user_fbAccessToken, :menu_link,
         :polaroid_description, :monday_special, :tuesday_special, :wednesday_special, :thursday_special, 
         :friday_special, :saturday_special, :sunday_special, :food_drink, :why_blove_heading_1, 
         :why_blove_heading_2, :why_blove_heading_3, :why_blove_description_1, :why_blove_description_2,

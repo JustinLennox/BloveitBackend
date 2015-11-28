@@ -32,6 +32,7 @@ class CreateVenues < ActiveRecord::Migration
       t.string :tuesday_hours
       t.string :wednesday_hours
       t.string :thursday_hours
+      t.string :menu_link
       t.string :friday_hours
       t.string :saturday_hours
       t.string :sunday_hours

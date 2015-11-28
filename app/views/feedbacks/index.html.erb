@@ -15,7 +15,7 @@
     <% @feedbacks.each do |feedback| %>
       <tr>
         <td><%= feedback.feedback_text %></td>
-        <td><%= link_to feedback.user.name, date_story.user %></td>
+        <%# <td><%= link_to feedback.user.name, feedback.user %></td> %>
         <td><%= link_to 'Show', feedback %></td>
         <td><%= link_to 'Edit', edit_feedback_path(feedback) %></td>
         <td><%= link_to 'Destroy', feedback, method: :delete, data: { confirm: 'Are you sure?' } %></td>

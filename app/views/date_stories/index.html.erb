@@ -9,6 +9,15 @@
       <th>Approved?</th>
       <th>User</th>
       <th>Venue</th>
+      <th>Enjoyed</th>
+      <th>Would Recommend</th>
+      <th>Date Type</th>
+      <th>Food</th>
+      <th>Drinks</th>
+      <th>Service</th>
+      <th>Decor</th>
+      <th>Vibe</th>
+
       <th colspan="4"></th>
     </tr>
   </thead>
@@ -18,8 +27,20 @@
       <tr>
         <td><%= date_story.storyText %></td>
         <td><%= date_story.approved %></td>
+        <% if (date_story.user != nil) then %>
         <td><%= link_to date_story.user.name, date_story.user %></td>
+        <% end %>
+        <% if (date_story.venue != nil) then %>
         <td><%= link_to date_story.venue.name, date_story.venue %> </td>
+        <% end %>
+        <td><%= date_story.did_enjoy%></td>
+        <td><%= date_story.would_recommend %></td>
+        <td><%= date_story.date_type %></td>
+        <td><%= date_story.food %></td>
+        <td><%= date_story.drinks %></td>
+        <td><%= date_story.zervice %></td>
+        <td><%= date_story.decor %></td>
+        <td><%= date_story.vibe %></td>
 
         <td><%= link_to 'Show', date_story %></td>
         <td><%= link_to 'Edit', edit_date_story_path(date_story) %></td>

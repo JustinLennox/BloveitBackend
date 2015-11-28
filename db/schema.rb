@@ -27,14 +27,24 @@ ActiveRecord::Schema.define(version: 20151021213228) do
     t.integer  "user_id"
     t.string   "venue_id"
     t.string   "user_fbAccessToken"
+    t.string   "did_enjoy"
+    t.string   "would_recommend"
+    t.string   "date_type"
+    t.string   "food"
+    t.string   "drinks"
+    t.string   "zervice"
+    t.string   "decor"
+    t.string   "vibe"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
   end
 
   create_table "feedbacks", force: :cascade do |t|
     t.string   "feedback_text"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.string   "user_fbAccessToken"
+    t.integer  "user_id"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
   end
 
   create_table "users", force: :cascade do |t|
@@ -78,6 +88,7 @@ ActiveRecord::Schema.define(version: 20151021213228) do
     t.string   "tuesday_hours"
     t.string   "wednesday_hours"
     t.string   "thursday_hours"
+    t.string   "menu_link"
     t.string   "friday_hours"
     t.string   "saturday_hours"
     t.string   "sunday_hours"

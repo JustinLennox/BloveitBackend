@@ -25,7 +25,8 @@ class FeedbacksController < ApplicationController
   # POST /feedbacks.json
   def create
     @feedback = Feedback.new(feedback_params)
-    @feedback.user = User.find_by(fbAccessToken: date_story_params[:user_fbAccessToken])
+    fUser = User.find_by(fbAccessToken: feedback_params[:user_fbAccessToken])
+    @feedback.user = fUser unless fUser.nil? || fUser.blank? 
     respond_to do |format|
       if @feedback.save
         format.html { redirect_to @feedback, notice: 'Feedback was successfully created.' }
