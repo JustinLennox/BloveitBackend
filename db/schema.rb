@@ -52,6 +52,7 @@ ActiveRecord::Schema.define(version: 20151021213228) do
     t.text     "favorites"
     t.text     "bloved_venues"
     t.string   "name"
+    t.string   "blove_points"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
   end
