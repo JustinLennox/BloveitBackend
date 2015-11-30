@@ -5,7 +5,6 @@ class CreateUsers < ActiveRecord::Migration
       t.text :favorites
       t.text :bloved_venues
       t.string :name
-      t.string :blove_points
       t.timestamps null: false
     end
   end
