@@ -24,7 +24,7 @@ class VenuesController < ApplicationController
       puts "Neigh array: ", neighborhood_array
       @venues = Venue.where(neighborhood: neighborhood_array)
 
-      if(params[:coffee] == "YES" || params[:drinks] == "YES" || params[:mood].blank? || params[:mood] == "Not-Picky")
+      if(params[:coffee] == "YES" || params[:mood].blank? || params[:mood] == "Not-Picky")
         puts "Not Picky"
       else
         @venues = @venues.where(mood: params[:mood])
