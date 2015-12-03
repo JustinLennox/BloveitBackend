@@ -28,6 +28,10 @@ gem 'omniauth'
 #Paperclip
 gem "paperclip", "~> 4.3.0"
 
+#AWS
+gem 'aws-sdk'
+gem 'nokogiri', '1.6.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
