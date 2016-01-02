@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 20151021213228) do
 
   create_table "date_stories", force: :cascade do |t|
     t.string   "storyText"
-    t.boolean  "approved"
+    t.string   "approved"
     t.integer  "user_id"
     t.string   "venue_id"
     t.string   "user_fbAccessToken"
@@ -52,7 +52,6 @@ ActiveRecord::Schema.define(version: 20151021213228) do
     t.text     "favorites"
     t.text     "bloved_venues"
     t.string   "name"
-    t.string   "blove_points"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
   end
