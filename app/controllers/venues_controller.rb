@@ -180,7 +180,7 @@ class VenuesController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def venue_params
       params.require(:venue).permit(:name, :date_type, :price_rating, :neighborhood, :address, :blove_count, :dinner, :drinks,
-        :dessert, :coffee, :mood, :date_day, :user_fbAccessToken, :menu_link,
+        :dessert, :coffee, :mood, :date_day, :user_fbAccessToken, :menu_link, :reservation_link,
         :polaroid_description, :monday_special, :tuesday_special, :wednesday_special, :thursday_special, 
         :friday_special, :saturday_special, :sunday_special, :food_drink, :why_blove_heading_1, 
         :why_blove_heading_2, :why_blove_heading_3, :why_blove_description_1, :why_blove_description_2,
