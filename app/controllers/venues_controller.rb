@@ -6,6 +6,9 @@ class VenuesController < ApplicationController
   def index
     @venues = Venue.where(nil)
     @venues = @venues.starts_with(params[:starts_with]) if params[:starts_with].present?
+    if params[:starts_with].blank?
+      @venues = Venue.order('name ASC')
+    end
   end
 
   # GET /venues/1
