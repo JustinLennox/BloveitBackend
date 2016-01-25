@@ -1,7 +1,6 @@
 ruby '2.2.2'
 source 'https://rubygems.org'
 
-gem 'pg'
 gem 'rails', '4.2.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
