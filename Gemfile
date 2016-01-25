@@ -44,6 +44,24 @@ group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'rails-erd'
+  gem 'bullet'
+  gem 'flamegraph'
+  gem 'capybara'
+  gem 'faker'
+  gem 'factory_girl_rails'
+  gem 'rspec-rails', '~> 3.0'
+  gem 'mailcatcher', '~> 0.6.1'
+  gem 'dotenv-rails'
+  gem 'vcr'
+  gem 'lol_dba'
+  gem 'pry'
+  gem 'pry-byebug'
+  gem 'pry-rails'
+  gem 'pry-remote'
+  gem 'binding_of_caller'
+  gem 'quiet_assets'
+
 end
 
 group :production do

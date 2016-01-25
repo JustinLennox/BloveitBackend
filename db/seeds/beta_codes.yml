@@ -1,0 +1,7 @@
+---
+  - 
+    id: 1
+    code: "BLOVEIT1"
+    user_max: 100
+    user_count: 31
+    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/beta_codes/1.json"
