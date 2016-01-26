@@ -14,7 +14,15 @@ Dir.glob(Rails.root.join('db', 'seeds', '*.yml')).select do |path|
       # iterate through the data if we have something
       if data.size > 0
         data.each do |values|
-          klass.first_or_create(values)
+          row = klass.where(id: values["id"].to_i)
+
+          # upsert the row
+          if row.exists?
+            row = row.first
+            row.update(values)
+          else
+            klass.create(values)
+          end
         end
       end
     end

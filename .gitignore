@@ -22,3 +22,5 @@
 !.elasticbeanstalk/*.global.yml
 
 .ruby-version
+
+public/system

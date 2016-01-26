@@ -198,7 +198,7 @@
     venue_image_2: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_2s/000/000/043/original/2-min.jpg?1453067208"
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/043/original/3-min-min.jpg?1453067218"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/043/original/5-min.jpg?1453067269"
-    venue_image_5: "/venue_image_5s/original/missing.png"
+    venue_image_5: null
   - 
     id: 76
     name: "Barcelona Wine Bar"
@@ -848,7 +848,7 @@
     venue_image_2: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_2s/000/000/051/original/2.jpg?1453068920"
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/051/original/3.jpg?1453068931"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/051/original/4.jpg?1453068944"
-    venue_image_5: "/venue_image_5s/original/missing.png"
+    venue_image_5: null
   - 
     id: 75
     name: "Cookie Studio"
@@ -1198,7 +1198,7 @@
     venue_image_2: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_2s/000/000/015/original/2.jpg?1453006420"
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/015/original/3.jpg?1453006431"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/015/original/4.jpg?1453006441"
-    venue_image_5: "/venue_image_5s/original/missing.png"
+    venue_image_5: null
   - 
     id: 34
     name: "Flip Burger"
@@ -1648,7 +1648,7 @@
     venue_image_2: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_2s/000/000/068/original/2-min.jpg?1453015560"
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/068/original/3-min.jpg?1453015571"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/068/original/4-min.jpg?1453015585"
-    venue_image_5: "/venue_image_5s/original/missing.png"
+    venue_image_5: null
   - 
     id: 66
     name: "Joy Cafe"
@@ -2348,7 +2348,7 @@
     venue_image_2: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_2s/000/000/048/original/2.jpg?1453064650"
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/048/original/3.jpg?1453064660"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/048/original/4.jpg?1453064676"
-    venue_image_5: "/venue_image_5s/original/missing.png"
+    venue_image_5: null
   - 
     id: 50
     name: "Seven Lamps"
