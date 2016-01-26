@@ -5,6 +5,7 @@
 Dir.glob(Rails.root.join('db', 'seeds', '*.yml')).select do |path|
   if File.file?(path)
     klass = path.gsub(Rails.root.join('db', 'seeds').to_s + '/','').gsub('.yml','').camelize.singularize.constantize
+    puts "Importing #{klass.to_s.pluralize}..."
 
     # lets make sure we're actually dealing with a class here
     if klass.kind_of?(Class)

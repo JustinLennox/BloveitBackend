@@ -37,109 +37,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: "Antico is notorious for their pizzas and for the line that often trails out the door."
-    date_stories: 
-      - 
-        id: 17
-        storyText: "Date story test"
-        approved: false
-        user_id: 1
-        venue_id: "7"
-        user_fbAccessToken: "3491907852734"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "-"
-        drinks: "-"
-        zervice: "-"
-        decor: "-"
-        vibe: "-"
-        created_at: "2016-01-20T23:43:53.528Z"
-        updated_at: "2016-01-20T23:47:09.398Z"
-      - 
-        id: 15
-        storyText: "Testing testing 2"
-        approved: true
-        user_id: 2
-        venue_id: "7"
-        user_fbAccessToken: "10101464146655289"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "-"
-        drinks: "CHECK"
-        zervice: "CHECK"
-        decor: "-"
-        vibe: "CHECK"
-        created_at: "2016-01-20T23:30:55.205Z"
-        updated_at: "2016-01-20T23:41:56.531Z"
-      - 
-        id: 14
-        storyText: "Testing testing "
-        approved: false
-        user_id: 15
-        venue_id: "7"
-        user_fbAccessToken: "DB150BD3-0721-4DA1-95BE-46B2A80071CC"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "-"
-        drinks: "CHECK"
-        zervice: "CHECK"
-        decor: "-"
-        vibe: "CHECK"
-        created_at: "2016-01-20T23:29:26.472Z"
-        updated_at: "2016-01-20T23:29:26.472Z"
-      - 
-        id: 12
-        storyText: "Cool date here"
-        approved: false
-        user_id: 10
-        venue_id: "7"
-        user_fbAccessToken: "E88C3DFC-76B7-4529-A413-8895AE142CCA"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "-"
-        drinks: "CHECK"
-        zervice: "CHECK"
-        decor: "-"
-        vibe: "CHECK"
-        created_at: "2016-01-04T08:22:31.336Z"
-        updated_at: "2016-01-04T08:22:31.336Z"
-      - 
-        id: 9
-        storyText: "Date story 2"
-        approved: false
-        user_id: 1
-        venue_id: "7"
-        user_fbAccessToken: "3491907852734"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "CHECK"
-        drinks: "CHECK"
-        zervice: "CHECK"
-        decor: "CHECK"
-        vibe: "-"
-        created_at: "2015-12-29T20:35:09.017Z"
-        updated_at: "2016-01-02T23:36:52.872Z"
-      - 
-        id: 8
-        storyText: "Submission"
-        approved: false
-        user_id: 1
-        venue_id: "7"
-        user_fbAccessToken: "3491907852734"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "-"
-        drinks: "-"
-        zervice: "-"
-        decor: "-"
-        vibe: "-"
-        created_at: "2015-12-03T20:06:38.602Z"
-        updated_at: "2016-01-02T19:59:57.337Z"
     crowd: "Young, laid back"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Lot (Free), Street (Free)"
@@ -152,7 +49,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/007/original/Photo-Sep-03_-12-39-39-PM.png?1449208428"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/007/original/Photo-Sep-03_-12-41-40-PM.png?1449208438"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/007/original/Photo-Sep-03_-12-46-40-PM.png?1449208450"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/7.json"
   - 
     id: 30
     name: "Apres Diem"
@@ -191,7 +87,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Young lovers"
     dress_code: "Stylish (Dress shirt / Heels)"
     parking: "Front Lot (Free)"
@@ -204,7 +99,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/030/original/3.jpg?1453010295"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/030/original/4.jpg?1453010305"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/030/original/5.jpg?1453010319"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/30.json"
   - 
     id: 56
     name: "Argosy"
@@ -243,7 +137,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Young & super chill"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Street (Free)"
@@ -256,7 +149,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/056/original/3.jpeg?1453013126"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/056/original/4.jpeg?1453013143"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/056/original/5-min.jpeg?1453013160"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/56.json"
   - 
     id: 43
     name: "Bar Amalfi"
@@ -295,7 +187,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Young & super chill"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Lot (Free), Street (Free)"
@@ -308,7 +199,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/043/original/3-min-min.jpg?1453067218"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/043/original/5-min.jpg?1453067269"
     venue_image_5: "/venue_image_5s/original/missing.png"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/43.json"
   - 
     id: 76
     name: "Barcelona Wine Bar"
@@ -347,7 +237,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Hip & cultured"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Deck (Free)"
@@ -360,7 +249,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/076/original/3-min.jpg?1453067401"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/076/original/4-min.jpg?1453067412"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/076/original/5-min.jpg?1453067424"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/76.json"
   - 
     id: 27
     name: "Bartaco (Inman Park)"
@@ -399,7 +287,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Young city goers"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Deck (Free)"
@@ -412,7 +299,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/027/original/3.jpg?1453007514"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/027/original/4-min.jpg?1453008034"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/027/original/5_%281%29-min.jpg?1453008051"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/27.json"
   - 
     id: 26
     name: "Bartaco (West Midtown)"
@@ -451,7 +337,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Young & fun"
     dress_code: "Stylish (Dress shirt / Heels)"
     parking: "Valet, Street (Free)"
@@ -464,7 +349,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/026/original/3-min.jpg?1453010590"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/026/original/4-min.jpg?1453010610"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/026/original/5-min.jpg?1453010625"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/26.json"
   - 
     id: 16
     name: "Bocado"
@@ -503,7 +387,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Hip & cultured"
     dress_code: "Cocktail (Blazer / LBD)"
     parking: "Valet, Lot (Free)"
@@ -516,7 +399,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/016/original/3-min.jpg?1453006897"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/016/original/4-min.jpg?1453006909"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/016/original/5-min.jpg?1453006920"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/16.json"
   - 
     id: 38
     name: "Bookhouse Pub"
@@ -555,41 +437,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: 
-      - 
-        id: 7
-        storyText: "Submission"
-        approved: false
-        user_id: 1
-        venue_id: "38"
-        user_fbAccessToken: "3491907852734"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "-"
-        drinks: "-"
-        zervice: "-"
-        decor: "-"
-        vibe: "-"
-        created_at: "2015-12-03T20:06:00.442Z"
-        updated_at: "2015-12-03T20:06:00.442Z"
-      - 
-        id: 4
-        storyText: "Great date spot! "
-        approved: false
-        user_id: 2
-        venue_id: "38"
-        user_fbAccessToken: "10101464146655289"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "-"
-        drinks: "CHECK"
-        zervice: "CHECK"
-        decor: "-"
-        vibe: "CHECK"
-        created_at: "2015-12-01T21:18:30.274Z"
-        updated_at: "2015-12-01T21:18:30.274Z"
     crowd: "Young & super chill"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Front Lot (Free)"
@@ -602,7 +449,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/038/original/3.jpg?1453067602"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/038/original/4.jpg?1453067617"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/038/original/5.jpg?1453068837"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/38.json"
   - 
     id: 59
     name: "Cafe Intermezzo (Midtown)"
@@ -641,7 +487,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Hip & cultured"
     dress_code: "Stylish (Dress shirt / Heels)"
     parking: "Deck (Validate)"
@@ -654,7 +499,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/059/original/3-min.jpg?1453013395"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/059/original/4-min.jpg?1453013407"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/059/original/5-min.jpg?1453013420"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/59.json"
   - 
     id: 69
     name: "Caffe Antico"
@@ -693,7 +537,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Come one, come all"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Lot (Free), Street (Free)"
@@ -706,7 +549,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/069/original/4-min.jpg?1453013853"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/069/original/5-min.jpg?1453013867"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/069/original/2-min-min_Cropped-min.jpg?1453014076"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/69.json"
   - 
     id: 60
     name: "Chattahoochee Coffee"
@@ -745,7 +587,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Come one, come all"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Street (Free)"
@@ -758,7 +599,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/060/original/3-min.jpg?1453014136"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/060/original/4-min.jpg?1453014150"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/060/original/5-min.jpg?1453014161"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/60.json"
   - 
     id: 63
     name: "Chrome Yellow"
@@ -797,24 +637,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: 
-      - 
-        id: 3
-        storyText: "Me and girlfriend has such a good time here. Can't wait to come back! "
-        approved: false
-        user_id: 2
-        venue_id: "63"
-        user_fbAccessToken: "10101464146655289"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "-"
-        drinks: "CHECK"
-        zervice: "CHECK"
-        decor: "-"
-        vibe: "CHECK"
-        created_at: "2015-12-01T21:16:00.681Z"
-        updated_at: "2015-12-01T21:16:00.681Z"
     crowd: "Young & super chill"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Front Lot (Free)"
@@ -827,7 +649,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/063/original/3-min.jpg?1453014322"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/063/original/4-min.jpg?1453014334"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/063/original/5-min.jpg?1453014349"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/63.json"
   - 
     id: 77
     name: "Church"
@@ -866,7 +687,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Young & super chill"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Back Lot (Free), Street (Free)"
@@ -879,7 +699,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/077/original/3.jpg?1453069038"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/077/original/4.jpg?1453069089"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/077/original/5.jpg?1453069124"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/77.json"
   - 
     id: 44
     name: "Community Smith"
@@ -918,7 +737,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Hip & cultured"
     dress_code: "Stylish (Dress shirt / Heels)"
     parking: "Valet, Street (Paid)"
@@ -931,7 +749,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/044/original/3-min.jpg?1453014464"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/044/original/4.jpg?1453014485"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/044/original/5.jpg?1453014502"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/44.json"
   - 
     id: 61
     name: "Condesa Coffee"
@@ -970,7 +787,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Come one, come all"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Street (Free)"
@@ -983,7 +799,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/061/original/3-min.jpg?1453014668"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/061/original/4-min.jpg?1453014680"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/061/original/5-min.jpg?1453014694"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/61.json"
   - 
     id: 51
     name: "Cook Hall"
@@ -1022,7 +837,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Sophistcated Guests"
     dress_code: "Stylish (Dress shirt / Heels)"
     parking: "Valet or paid lot"
@@ -1035,7 +849,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/051/original/3.jpg?1453068931"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/051/original/4.jpg?1453068944"
     venue_image_5: "/venue_image_5s/original/missing.png"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/51.json"
   - 
     id: 75
     name: "Cookie Studio"
@@ -1074,7 +887,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Come one, come all"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Front Lot (Free)"
@@ -1087,7 +899,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/075/original/3.jpg?1453012892"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/075/original/4.jpg?1453012909"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/075/original/5.jpg?1453012929"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/75.json"
   - 
     id: 65
     name: "Corso Coffee"
@@ -1126,7 +937,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Come one, come all"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Deck (Hourly rate)"
@@ -1139,7 +949,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/065/original/3-min.jpg?1453014906"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/065/original/4-min.jpg?1453014917"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/065/original/5-min.jpg?1453014930"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/65.json"
   - 
     id: 36
     name: "Cypress Pint"
@@ -1178,24 +987,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: 
-      - 
-        id: 16
-        storyText: "Testing testing 3"
-        approved: false
-        user_id: 2
-        venue_id: "36"
-        user_fbAccessToken: "10101464146655289"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "-"
-        drinks: "CHECK"
-        zervice: "CHECK"
-        decor: "-"
-        vibe: "CHECK"
-        created_at: "2016-01-20T23:33:00.763Z"
-        updated_at: "2016-01-20T23:51:48.347Z"
     crowd: "Young Midtown friends"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Street (Paid)"
@@ -1208,7 +999,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/036/original/3-min.jpg?1453007171"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/036/original/4-min.jpg?1453007186"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/036/original/5-min.jpg?1453007198"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/36.json"
   - 
     id: 35
     name: "Del Friscos"
@@ -1247,7 +1037,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Young & sexy"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Valet"
@@ -1260,7 +1049,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/035/original/3.jpg?1453007262"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/035/original/4.jpg?1453007272"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/035/original/5.jpg?1453007282"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/35.json"
   - 
     id: 78
     name: "Doraku"
@@ -1299,7 +1087,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Trendy sushi lovers"
     dress_code: "Stylish (Dress shirt / Heels)"
     parking: "Deck (Validate)"
@@ -1312,7 +1099,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/078/original/3.jpg?1453072457"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/078/original/4.jpg?1453072472"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/078/original/5.jpg?1453072486"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/78.json"
   - 
     id: 12
     name: "Elmyr"
@@ -1351,7 +1137,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Edgy neigh'hood kids"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Street (Free)"
@@ -1364,7 +1149,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/012/original/3.jpg?1453009588"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/012/original/4.jpg?1453009616"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/012/original/5.jpg?1453009628"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/12.json"
   - 
     id: 15
     name: "Fado (Buckhead)"
@@ -1403,75 +1187,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: 
-      - 
-        id: 13
-        storyText: "Huff jt kfkfkf "
-        approved: false
-        user_id: 1
-        venue_id: "15"
-        user_fbAccessToken: "3491907852734"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "-"
-        drinks: "CHECK"
-        zervice: "CHECK"
-        decor: "-"
-        vibe: "CHECK"
-        created_at: "2016-01-18T23:25:14.029Z"
-        updated_at: "2016-01-18T23:25:14.029Z"
-      - 
-        id: 6
-        storyText: "Nice!"
-        approved: false
-        user_id: 1
-        venue_id: "15"
-        user_fbAccessToken: "3491907852734"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "-"
-        drinks: "-"
-        zervice: "-"
-        decor: "-"
-        vibe: "-"
-        created_at: "2015-12-03T20:04:25.244Z"
-        updated_at: "2015-12-03T20:04:25.244Z"
-      - 
-        id: 5
-        storyText: "Story test!"
-        approved: false
-        user_id: 1
-        venue_id: "15"
-        user_fbAccessToken: "3491907852734"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "-"
-        drinks: "-"
-        zervice: "-"
-        decor: "-"
-        vibe: "-"
-        created_at: "2015-12-01T21:30:14.989Z"
-        updated_at: "2015-12-01T21:30:14.989Z"
-      - 
-        id: 1
-        storyText: "Loved this place! Absolutely fantastic."
-        approved: false
-        user_id: 1
-        venue_id: "15"
-        user_fbAccessToken: "3491907852734"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "-"
-        drinks: "CHECK"
-        zervice: "-"
-        decor: "-"
-        vibe: "CHECK"
-        created_at: "2015-11-30T22:17:18.148Z"
-        updated_at: "2015-11-30T22:17:18.148Z"
     crowd: "Buckead loungers"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Deck (Validate)"
@@ -1484,7 +1199,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/015/original/3.jpg?1453006431"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/015/original/4.jpg?1453006441"
     venue_image_5: "/venue_image_5s/original/missing.png"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/15.json"
   - 
     id: 34
     name: "Flip Burger"
@@ -1523,7 +1237,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Come one, come all"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Front Lot (Free)"
@@ -1536,7 +1249,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/034/original/3.jpg?1453011059"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/034/original/4.jpg?1453011071"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/034/original/5.jpg?1453011084"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/34.json"
   - 
     id: 39
     name: "Folk Art"
@@ -1575,7 +1287,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Neighborhood beauties"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Back Lot (Free)"
@@ -1588,7 +1299,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/039/original/3.jpg?1453006996"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/039/original/4.jpg?1453007008"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/039/original/5.jpg?1453007020"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/39.json"
   - 
     id: 10
     name: "Fritti "
@@ -1627,7 +1337,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Both young and mature"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Back Lot (Free)"
@@ -1640,7 +1349,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/010/original/3.jpg?1453006497"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/010/original/4.jpg?1453006510"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/010/original/5-min.jpg?1453006590"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/10.json"
   - 
     id: 17
     name: "Grain"
@@ -1679,7 +1387,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Hip & cultured"
     dress_code: "Stylish (Dress shirt / Heels)"
     parking: "Street (Paid)"
@@ -1692,7 +1399,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/017/original/3.jpg?1453009791"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/017/original/4.jpg?1453009805"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/017/original/5.jpg?1453009836"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/17.json"
   - 
     id: 25
     name: "Holeman & Finch"
@@ -1731,24 +1437,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: 
-      - 
-        id: 2
-        storyText: "Awesome date spot! "
-        approved: false
-        user_id: 2
-        venue_id: "25"
-        user_fbAccessToken: "10101464146655289"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "-"
-        drinks: "CHECK"
-        zervice: "CHECK"
-        decor: "-"
-        vibe: "CHECK"
-        created_at: "2015-12-01T21:13:39.404Z"
-        updated_at: "2015-12-01T21:13:39.404Z"
     crowd: "Great people & their friends"
     dress_code: "Stylish (Dress shirt / Heels)"
     parking: "Valet & Free Self"
@@ -1761,7 +1449,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/025/original/3.jpg?1453011170"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/025/original/4.jpg?1453011180"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/025/original/5.jpg?1453011192"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/25.json"
   - 
     id: 70
     name: "Honey Bubble"
@@ -1800,7 +1487,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Come one, come all"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Front Lot (Free)"
@@ -1813,7 +1499,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/070/original/3-min.jpg?1453015158"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/070/original/4-min.jpg?1453015171"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/070/original/5-min.jpg?1453015203"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/70.json"
   - 
     id: 79
     name: "JCT Bar"
@@ -1852,7 +1537,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Hip & cultured"
     dress_code: "Stylish (Dress shirt / Heels)"
     parking: "Front Lot (Free)"
@@ -1865,7 +1549,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/079/original/3-min.jpg?1453072679"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/079/original/4.jpg?1453072703"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/079/original/5-min.jpg?1453072739"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/79.json"
   - 
     id: 18
     name: "JCT Kitchen"
@@ -1904,7 +1587,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Hip & cultured"
     dress_code: "Cocktail (Blazer / LBD)"
     parking: "Front Lot (Free)"
@@ -1917,7 +1599,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/018/original/3.jpg?1453006729"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/018/original/4.jpg?1453006749"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/018/original/5.jpg?1453006767"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/18.json"
   - 
     id: 68
     name: "Jeni's Ice Cream"
@@ -1956,7 +1637,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Come one, come all"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Front Lot (Free)"
@@ -1969,7 +1649,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/068/original/3-min.jpg?1453015571"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/068/original/4-min.jpg?1453015585"
     venue_image_5: "/venue_image_5s/original/missing.png"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/68.json"
   - 
     id: 66
     name: "Joy Cafe"
@@ -2008,7 +1687,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Come one, come all"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Front Lot (Free)"
@@ -2021,7 +1699,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/066/original/3.jpg?1453063879"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/066/original/4.jpg?1453063889"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/066/original/5.jpg?1453063902"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/66.json"
   - 
     id: 53
     name: "Joystick "
@@ -2060,7 +1737,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Cool kids"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Street (free)"
@@ -2073,7 +1749,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/053/original/3.jpg?1453063122"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/053/original/4.jpg?1453063137"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/053/original/5.jpg?1453063155"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/53.json"
   - 
     id: 32
     name: "LadyBird"
@@ -2112,7 +1787,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Young & fun"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Lot nearby (Free)"
@@ -2125,7 +1799,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/032/original/3.jpg?1453011308"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/032/original/4.jpg?1453011322"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/032/original/5-min.jpg?1453011486"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/32.json"
   - 
     id: 28
     name: "Loca Luna"
@@ -2164,7 +1837,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Salsa lovers"
     dress_code: "Stylish (Dress shirt / Heels)"
     parking: "Front Lot (Free)"
@@ -2177,7 +1849,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/028/original/3.jpg?1453011663"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/028/original/4.jpg?1453011686"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/028/original/5.jpg?1453011697"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/28.json"
   - 
     id: 37
     name: "Marlow's Tavern"
@@ -2216,7 +1887,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Midtown locals"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Deck (Free), Street (paid)"
@@ -2229,7 +1899,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/037/original/3.jpg?1453002947"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/037/original/4.jpg?1453002958"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/037/original/5.jpg?1453002988"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/37.json"
   - 
     id: 20
     name: "Miso Izakaya"
@@ -2268,7 +1937,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Hip & cultured"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Street (Free)"
@@ -2281,7 +1949,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/020/original/3.jpg?1453012579"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/020/original/4.jpg?1453012590"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/020/original/5.jpg?1453012603"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/20.json"
   - 
     id: 71
     name: "Morelli's"
@@ -2320,7 +1987,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Come one, come all"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Lot (Free)"
@@ -2333,7 +1999,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/071/original/3-min.jpg?1453063516"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/071/original/4-min.jpg?1453063531"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/071/original/5-min.jpg?1453063551"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/71.json"
   - 
     id: 62
     name: "Octane Coffee (East)"
@@ -2372,7 +2037,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Artsys and Creatives"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Front Lot (Free), Street (Free)"
@@ -2385,7 +2049,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/062/original/3-min.jpg?1453064219"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/062/original/4-min.jpg?1453064236"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/062/original/5-min.jpg?1453064249"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/62.json"
   - 
     id: 58
     name: "Octane Coffee (West)"
@@ -2424,7 +2087,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Artsys and Creatives"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Lot (Free), Street (Free)"
@@ -2437,7 +2099,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/058/original/3-min.jpg?1453063789"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/058/original/4-min.jpg?1453063799"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/058/original/5-min.jpg?1453063811"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/58.json"
   - 
     id: 47
     name: "Octopus Bar"
@@ -2476,7 +2137,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Young & super chill"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Street (Free)"
@@ -2489,7 +2149,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/047/original/3.jpg?1453074305"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/047/original/4.jpg?1453074317"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/047/original/6.jpg?1453074331"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/47.json"
   - 
     id: 29
     name: "Ormsbys"
@@ -2528,24 +2187,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: 
-      - 
-        id: 10
-        storyText: "Story check 2"
-        approved: true
-        user_id: 1
-        venue_id: "29"
-        user_fbAccessToken: "3491907852734"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "-"
-        drinks: "-"
-        zervice: "-"
-        decor: "-"
-        vibe: "-"
-        created_at: "2015-12-31T08:11:28.551Z"
-        updated_at: "2015-12-31T08:34:29.455Z"
     crowd: "Young & fun"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Deck (Free), Street (Free)"
@@ -2558,7 +2199,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/029/original/3.jpg?1453010073"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/029/original/4.jpg?1453010092"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/029/original/5.jpg?1453010157"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/29.json"
   - 
     id: 41
     name: "Porter Beer Bar"
@@ -2597,7 +2237,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Edgy neigh'hood kids"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Street (Free)"
@@ -2610,7 +2249,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/041/original/3-min.jpg?1453069778"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/041/original/4-min.jpg?1453069806"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/041/original/5-min.jpg?1453069825"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/41.json"
   - 
     id: 72
     name: "Queen of Cream"
@@ -2649,7 +2287,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Come one, come all"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Street (Free)"
@@ -2662,7 +2299,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/072/original/3-min.jpg?1453064460"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/072/original/4.jpg?1453064474"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/072/original/5-min.jpg?1453064489"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/72.json"
   - 
     id: 48
     name: "Ration & Dram"
@@ -2701,7 +2337,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Hip & cultured"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Street (Free)"
@@ -2714,7 +2349,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/048/original/3.jpg?1453064660"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/048/original/4.jpg?1453064676"
     venue_image_5: "/venue_image_5s/original/missing.png"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/48.json"
   - 
     id: 50
     name: "Seven Lamps"
@@ -2753,7 +2387,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Young & Sophisticated"
     dress_code: "Stylish (Dress shirt / Heels)"
     parking: "Front Lot (Free)"
@@ -2766,7 +2399,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/050/original/3.jpg?1453073378"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/050/original/4.jpg?1453073394"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/050/original/5.jpg?1453073411"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/50.json"
   - 
     id: 8
     name: "Sivas"
@@ -2805,7 +2437,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Hip & cultured"
     dress_code: "Stylish (Dress shirt / Heels)"
     parking: "Back Lot (Free)"
@@ -2818,7 +2449,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/008/original/3-min.jpg?1453009051"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/008/original/4.jpg?1453008273"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/008/original/5.jpg?1453008296"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/8.json"
   - 
     id: 40
     name: "Smith's Olde Bar"
@@ -2857,7 +2487,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Neighborhood beauties"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Back Lot (Free)"
@@ -2870,7 +2499,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/040/original/3.jpg?1453064743"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/040/original/4.jpg?1453064754"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/040/original/5.jpg?1453064765"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/40.json"
   - 
     id: 46
     name: "So Ba"
@@ -2909,7 +2537,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Young & super chill"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Street (Free)"
@@ -2922,7 +2549,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/046/original/3.jpg?1453064845"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/046/original/4.jpg?1453064861"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/046/original/5.jpg?1453064874"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/46.json"
   - 
     id: 21
     name: "Superica"
@@ -2961,7 +2587,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Hip & cultured"
     dress_code: "Stylish (Dress shirt / Heels)"
     parking: "Lot (Free)"
@@ -2974,7 +2599,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/021/original/3-min.jpg?1453005960"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/021/original/4-min.jpg?1453005973"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/021/original/5-min.jpg?1453005984"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/21.json"
   - 
     id: 67
     name: "SweetHut"
@@ -3013,7 +2637,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Come one, come all"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Deck (Validate)"
@@ -3026,7 +2649,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/067/original/3-min.jpg?1453065531"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/067/original/4-min.jpg?1453065544"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/067/original/5-min.jpg?1453065560"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/67.json"
   - 
     id: 64
     name: "Taproom"
@@ -3065,24 +2687,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: 
-      - 
-        id: 11
-        storyText: "Great date spot! "
-        approved: false
-        user_id: 2
-        venue_id: "64"
-        user_fbAccessToken: "10101464146655289"
-        did_enjoy: "YES"
-        would_recommend: "YES"
-        date_type: "First Date"
-        food: "-"
-        drinks: "CHECK"
-        zervice: "CHECK"
-        decor: "-"
-        vibe: "CHECK"
-        created_at: "2016-01-02T23:28:50.568Z"
-        updated_at: "2016-01-02T23:28:50.568Z"
     crowd: "Neighborhood beauties"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Lot (Free)"
@@ -3095,7 +2699,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/064/original/3-min.jpg?1453065649"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/064/original/4-min.jpg?1453065663"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/064/original/5-min.jpg?1453065674"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/64.json"
   - 
     id: 80
     name: "Ten Lounge"
@@ -3134,7 +2737,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Hip & cultured"
     dress_code: "Stylish (Dress shirt / Heels)"
     parking: "Street (Free), Lot (Free)"
@@ -3147,7 +2749,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/080/original/3.jpeg?1453072867"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/080/original/4.jpeg?1453072879"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/080/original/5.jpeg?1453072892"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/80.json"
   - 
     id: 14
     name: "The Earl"
@@ -3186,7 +2787,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Edgy neigh'hood kids"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Street (Free)"
@@ -3199,7 +2799,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/014/original/3.jpeg?1453008544"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/014/original/4.jpeg?1453008581"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/014/original/5-min.jpeg?1453008610"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/14.json"
   - 
     id: 54
     name: "The Independent"
@@ -3238,7 +2837,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Edgy neigh'hood kids"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Front Lot (Free)"
@@ -3251,7 +2849,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/054/original/3.jpg?1453063238"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/054/original/4.jpg?1453063256"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/054/original/5.jpg?1453063276"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/54.json"
   - 
     id: 19
     name: "The Lawrence"
@@ -3290,7 +2887,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Young & super chill"
     dress_code: "Stylish (Dress shirt / Heels)"
     parking: "Street (free)"
@@ -3303,7 +2899,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/019/original/3.jpg?1453009918"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/019/original/4-min.jpeg?1453010001"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/019/original/5.jpg?1453010013"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/19.json"
   - 
     id: 31
     name: "Tijuana Garage"
@@ -3342,7 +2937,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Both young & mature"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Street (Free)"
@@ -3355,7 +2949,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/031/original/3.jpg?1453006181"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/031/original/4-min.jpg?1453006341"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/031/original/5-min.jpg?1453006356"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/31.json"
   - 
     id: 49
     name: "Victory Bar"
@@ -3394,7 +2987,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Young & super chill"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Street (Free)"
@@ -3407,7 +2999,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/049/original/3-min.jpg?1453066945"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/049/original/4-min.jpg?1453066962"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/049/original/5-min.jpg?1453066975"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/49.json"
   - 
     id: 81
     name: "Whiskey Blue"
@@ -3446,7 +3037,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Sophistcated Guests"
     dress_code: "Stylish (Dress shirt / Heels)"
     parking: "Valet (Paid)"
@@ -3459,7 +3049,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/081/original/3.jpg?1453067500"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/081/original/4.jpg?1453067514"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/081/original/5.jpg?1453067527"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/81.json"
   - 
     id: 9
     name: "Yeah! Burger"
@@ -3498,7 +3087,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Come one, come all"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Lot (Free), Deck (Free)"
@@ -3511,7 +3099,6 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/009/original/3-min.jpg?1453012763"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/009/original/4-min.jpg?1453012775"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/009/original/5-min.jpg?1453012787"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/9.json"
   - 
     id: 74
     name: "Yogurberry"
@@ -3550,7 +3137,6 @@
     details_table: null
     date_experience: null
     keep_in_mind: ""
-    date_stories: []
     crowd: "Come one, come all"
     dress_code: "Casual (Jeans / T-shirt)"
     parking: "Deck (Hourly rate)"
@@ -3563,4 +3149,3 @@
     venue_image_3: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_3s/000/000/074/original/3-min.jpg?1453066379"
     venue_image_4: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_4s/000/000/074/original/4-min.jpg?1453066433"
     venue_image_5: "http://s3.amazonaws.com/elasticbeanstalk-us-east-1-297431323636/venues/venue_image_5s/000/000/074/original/5-min.jpg?1453066434"
-    url: "http://bloveit-env-bz63er2xhu.elasticbeanstalk.com/venues/74.json"
